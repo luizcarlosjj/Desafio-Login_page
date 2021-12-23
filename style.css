@@ -1,0 +1,45 @@
+body {
+  background-color: #05fff6;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.9em;
+  background-image: linear-gradient(45deg, #05fff6 50%, #222222);
+  height: 100%;
+}
+main {
+  margin: auto;
+  width: 600px ;
+  padding: 10px;
+
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 3px 1px black;
+}
+h1 , h2 {
+  text-align: center;
+}
+.image{
+  text-align: center;
+}
+.video-div{
+  text-align: center; 
+  padding: 5px;
+  padding-bottom: 10px;
+  width: 150px;
+}
+
+#word > p {
+  display: none;
+}
+
+#word:hover > p {
+  display: block;
+  font-style: italic;
+  color: red;
+  font-weight: 600;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #05918c;
+}
