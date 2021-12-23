@@ -1,3 +1,5 @@
 # Desafio-portfolio
 Site feito para praticar meu conhecimento até agora no curso de HTML e CSS
-Tags usadas: <a>, <ul>, <img> , <video>, <main> e usando bastante o CSS. todas essas tags vistas no curso do Curso em vídeo.
+Montei esse projeto para ir atualizando com o passar do tempo, apliccando os conhecimento que estou vendo
+site:
+#Link: https://luizcarlosjj.github.io/Desafio-portfolio/
