@@ -1,0 +1,84 @@
+body {
+  background-color: #05fff6;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.9em;
+  background-image: linear-gradient(to left, #1859d3 50%, #333333 10% , #222222);
+  height: 100%;
+}
+main {
+  margin: auto;
+  width: 600px ;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 3px 1px black;
+}
+
+h1 , h2 {
+  text-align: center;
+}
+
+i {
+	background-image: linear-gradient(to right, #1859d3, #0091fc);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #05918c;
+  background-image: linear-gradient(to right, #1859d3, #0091fc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  
+}
+
+hr {
+	width: 100%;
+    height: 1px;
+    border: 0px;
+    background-color: #1859d3;
+}
+
+#gradtit {
+	background-image: linear-gradient(to right, #1859d3, #0091fc);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent; 
+	font-size: 2.5em; 
+	font-weight: bold;
+	/*text-shadow: 1px 1px #111111;*/
+	margin-top: -1px;
+
+}
+.image{
+  text-align: center;
+}
+.video-div{
+  text-align: center;
+  margin: auto;  
+}
+
+.space{
+	padding: -2px;
+}
+
+#word > p {
+  display: none;
+}
+
+#word:hover > p {
+  display: block;
+  font-style: italic;
+  color: red;
+  font-weight: 600;
+}
+
+#canal > p::after {
+  content: ' Vídeo de exemplo';
+  color: darkgray;
+  font-style: italic;
+}
