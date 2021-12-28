@@ -3,6 +3,7 @@
   body {
     max-width: 480px;
     font-size: 1.0em;
+    background-image: linear-gradient(to left, #1859d3 50%, #333333 50%);
   }
 }
 
