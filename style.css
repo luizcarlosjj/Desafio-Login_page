@@ -1,7 +1,15 @@
+/*Ajustar o conteúdo para smartfhone*/
+@media screen and (max-width:480) {
+  body {
+    max-width: 480px;
+    font-size: 1.0em;
+  }
+}
+
 body {
   background-color: #05fff6;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.9em;
+  font-size: 1.2em;
   background-image: linear-gradient(to left, #1859d3 50%, #333333 10% , #222222);
   height: 100%;
 }
