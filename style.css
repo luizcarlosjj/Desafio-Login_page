@@ -7,22 +7,49 @@
   }
 }
 
-body {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*body { body antigo
   background-color: #05fff6;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.2em;
   background-image: linear-gradient(to left, #1859d3 50%, #333333 10% , #222222);
   height: 100%;
+}*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: 100vh;
+  width: 100vw;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+  background-image: linear-gradient(to left, #1859d3 50%, #333333 10% , #222222);
+  background-color: red;
 }
 
 main {
+  width: 90%;
+  height: 99%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 3px 1px black;
+}
+
+/*main {
   margin: auto;
   width: 600px ;
   padding: 10px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 2px 3px 1px black;
-}
+}*/
 
 h1 , h2 {
   text-align: center;
@@ -53,27 +80,53 @@ hr {
     background-color: #1859d3;
 }
 
+.lings {
+  align-items: center;
+  text-align: center;
+  margin: 15px;
+  margin-top: 25px;
+  list-style: none;
+}
+
+#loch2 {
+  margin-top: 20px;
+}
+
+ul li {
+  list-style: none;
+}
+
 #gradtit {
 	background-image: linear-gradient(to right, #1859d3, #0091fc);
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent; 
-	font-size: 2.5em; 
+	font-size: 2.0em; 
 	font-weight: bold;
 	/*text-shadow: 1px 1px #111111;*/
 	margin-top: -1px;
+  margin-bottom: -1px;
 
 }
+
+#meunome{
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#list-ling{
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
 .image{
   text-align: center;
 }
 .video-div{
   text-align: center;
   margin: auto;  
-}
-
-.space{
-	padding: -2px;
 }
 
 #word > p {
@@ -91,4 +144,27 @@ hr {
   content: ' Vídeo de exemplo';
   color: darkgray;
   font-style: italic;
+}
+
+.space{
+  margin-top: -1px;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 1em;
+}
+
+#redes {
+  text-align: center;
+  margin-top: 5px;
+}
+
+#home-redes{
+  border: 1px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 1px black;
+  width: 150px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
 }
