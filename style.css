@@ -9,6 +9,10 @@
     width: 150px;
     height: 100px;
   }
+  .space {
+    color: white;
+    font-size: 0.9em;
+  }
 }
 
 * {
