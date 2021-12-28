@@ -5,6 +5,10 @@
     font-size: 1.0em;
     background-image: linear-gradient(to left, #1859d3 50%, #333333 50%);
   }
+  iframe {
+    width: 150px;
+    height: 100px;
+  }
 }
 
 * {
