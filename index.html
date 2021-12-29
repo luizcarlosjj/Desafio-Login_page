@@ -1,53 +1,190 @@
-<!DOCTYPE HTML>
-<html lang='pt-br'>
-<head>
-	<meta charset="UTF-8">
-	<title>Desafio Portfólio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalabe=no">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Twinkle+Star&family=Ubuntu&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<main>
-		<h1 id="gradtit">Olá Pessoas!</h1>
-		<div class="image">
-			<img width="90px" src="images.png" align="middle">
-		</div>
-		<h2 id="meunome">Me chamo Luiz Carlos e hoje irei apresentar meu pequeno portfólio para vocês!</h2>
-		<p id="list-ling">Aqui irei listar as linguagens que conheço em geral:</p>
-		<ul class="lings">
-			<li><i class="fab fa-html5 fa-2x"></i> Html & Css<i class="fab fa-css3-alt fa-2x"></i>
-			<li><i class="fab fa-js-square fa-2x"></i> Javascipt
-			<li><i class="fab fa-php fa-2x"></i> PHP
-			<li><i class="fab fa-python fa-2x"></i> Python
-			<li><div id="word">
-					<i class="fab fa-wordpress fa-2x"></i>Wordpress, Não sabe o que é ? Passe o mouse aqui!
-					<p>WordPress é um sistema livre e aberto de gestão de conteúdo para internet, baseado em PHP com banco de dados MySQL, executado em um servidor interpretador, voltado principalmente para a criação de páginas eletrônicas e blogs online</p>
-				</div> 
-		</ul>
-		<hr>
-		<h2 id="loch2">Aonde você pode me encontrar?</h2>
-		<ul>
-			<li><p>Estou no Github aonde você pode me achar muito fácil - <a href='https://github.com/luizcarlosjj' target='_blank'>Meu github.</a></p>
-			<li><div id="canal">
-				<p>Também estou ativo no Youtube com um canal de tutoriais.</p>
-			</div>
-		</ul>
-		<div class="video-div">
-			<iframe width="350" text-align="center" align="middle" height="215" src="https://www.youtube.com/embed/WPtRX4n0UJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
-		<h2 class="space">Minhas Redes Sociais:</h2>
-		<div id="home-redes">
-			<ul id="redes">
-				<li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/luiz.jb62/" target="_blank">Instagram<a>
-				<li><i class="fab fa-facebook"></i><a href="https://www.facebook.com/profile.php?id=100008230635881" target="_blank"> Facebook<a>
-				<li><i class="fab fa-whatsapp"></i><a href="https://api.whatsapp.com/send?phone=5562986432931"> Whastapp</a>
-			</ul>
-		</div>
-		
-	</main>
-	<script src="https://kit.fontawesome.com/e334984a89.js" crossorigin="anonymous"></script>
-</body>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: blue;
+        font-family: "Josefin Sans", sans-serif;
+      }
+
+      .title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+
+      .subtitle {
+        font-size: 1.5rem;
+        margin: 15px 0 15px;
+      }
+
+      .text {
+        font-size: 1rem;
+        margin: 10px 0 10px;
+      }
+
+      .text-blue {
+        cursor: pointer;
+        font-weight: bold;
+        color: blue;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .align-center {
+        display: flex;
+        justify-content: center;
+      }
+
+      .list {
+        margin-left: 30px;
+      }
+
+      .link {
+        text-decoration: none;
+      }
+
+      .card {
+        width: 30%;
+        height: 99vh;
+        border-radius: 15px;
+        background-color: white;
+        padding: 10px;
+      }
+
+      .main__img__logo {
+        height: 150px;
+      }
+
+      .separator {
+        width: 99%;
+        margin: 10px 0 10px;
+        border: #1859d3 1px solid;
+      }
+
+      .socialMedia__list__item {
+        list-style: none;
+        margin-right: 20px;
+      }
+
+      @media screen and (max-width: 430px) {
+        .title {
+          font-size: 1.5rem;
+        }
+
+        .subtitle {
+          font-size: 1rem;
+        }
+
+        .text {
+          font-size: 0.8rem;
+        }
+      }
+
+      @media screen and (max-width: 1200px) {
+        .card {
+          width: 99%;
+        }
+      }
+
+      @media screen and (min-width: 1201px) and (max-width: 1800px) {
+        .card {
+          width: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <main class="main">
+        <h1 class="main__title title text-blue text-center">Olá Pessoas!</h1>
+
+        <div class="main__img align-center">
+          <img class="main__img__logo" src="./logo.png" />
+        </div>
+
+        <h2 class="main__subtitle subtitle text-center">
+          Me Chamo Luiz Carlos e hoje irei apresentar meu pequeno portfólio para
+          vocês!
+        </h2>
+
+        <small class="main__small text">
+          Aqui irei listar as linguagens que conheço em geral:
+        </small>
+
+        <ul class="main__list list">
+          <li class="main__list__item text">HTML & CSS</li>
+          <li class="main__list__item text">JavaScript</li>
+          <li class="main__list__item text">PHP</li>
+          <li class="main__list__item text">Python</li>
+          <li class="main__list__item text">
+            Wordpress, Não sabe o que é? Passe o mouse aqui!
+          </li>
+        </ul>
+      </main>
+
+      <hr class="separator" />
+
+      <article class="content">
+        <h2 class="content__title subtitle text-center">
+          Aonde você pode me encontrar?
+        </h2>
+
+        <ul class="content__list list">
+          <li class="content__list__item text">
+            Estou no Github aonde você pode me achar muito fácil -
+            <span class="text-blue">Meu github.</span>
+          </li>
+
+          <li class="content__list__item text">
+            Também estou ativo no Youtube com um canal de tutoriais.
+          </li>
+        </ul>
+
+        <div class="content__iframe align-center">
+          <iframe
+            width="350"
+            height="200"
+            src="https://www.youtube.com/embed/WPtRX4n0UJs"
+            title="YouTube video player"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </article>
+
+      <footer class="socialMedia">
+        <h2 class="socialMedia__title subtitle text-center">
+          Minhas Redes Sociais:
+        </h2>
+
+        <ul class="socialMedia__list list align-center">
+          <li class="socialMedia__list__item">
+            <a href="#" class="text-blue link">Instagram</a>
+          </li>
+          <li class="socialMedia__list__item">
+            <a href="#" class="text-blue link">Facebook </a>
+          </li>
+          <li class="socialMedia__list__item">
+            <a href="#" class="text-blue link">Whatsapp</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>
