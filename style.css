@@ -48,8 +48,9 @@ section > img {
   margin-top: 25px;
 }
 
-.inputs::placeholder {
-  padding-left: 20px;
+.inputs:hover {
+  border-style: solid;
+  border-color: white;
 }
 
 #inputs-fields {
@@ -61,7 +62,7 @@ section > img {
 #btn {
   background-color: #6040c4;  
   color: white;
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: 700  ;
   padding: 10px;  
   padding-right: 30px;
@@ -69,6 +70,11 @@ section > img {
   border-radius: 20px;
   border-style: none;
   margin-top: 40px;
+}
+
+#btn:hover {
+  transition-duration: 0.5s;
+  background-color: #4a3292;
 }
 
 .text-fields {
