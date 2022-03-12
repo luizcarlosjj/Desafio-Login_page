@@ -11,9 +11,9 @@
   <main>
     <h1>Create Account</h1>
     <section id="imagens">
-      <img src="src/google.png" alt="google-icon">
-      <img src="src/facebook.png" alt="facebook-icon">
-      <img src="src/linkedin.png" alt="linkedin-icon">
+      <button onclick="btngoogle()"><img src="src/google.png" alt="google-icon"></button>
+      <button onclick="btnface()"><img src="src/facebook.png" alt="facebook-icon"></button>
+      <button onclick="btnLinkdin()" ><img src="src/linkedin.png" alt="linkedin-icon"></button>
     </section>
     <br>
     <h2>OR</h2>
@@ -52,7 +52,13 @@
     }
 
     function btnLinkdin() {
-      window.location = "www.youtube.com"
+      window.location.assign("http://www.devmedia.com.br");
+    }
+    function btnface() {
+      window.location.assign("http://www.facebook.com");
+    }
+    function btngoogle() {
+      window.location.assign("http://google.com");
     }
   </script>
 </body>

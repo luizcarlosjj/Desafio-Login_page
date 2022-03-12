@@ -23,9 +23,14 @@ main > h2 {
   margin-top: -10px;
   margin-right: 23px;
 }
-section > img {
+section > button > img {
   width: 25px;
   padding-right: 20px;
+}
+
+section >  button {
+  background-color: transparent;
+  border: none;
 }
 
 * {
