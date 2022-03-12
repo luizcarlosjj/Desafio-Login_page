@@ -46,6 +46,8 @@ section > img {
   display: block;
   margin: auto;
   margin-top: 25px;
+  color: white;
+  padding: 2px;
 }
 
 .inputs:hover {
